@@ -50,7 +50,7 @@ public class Data {
                 if (!is_tip) {
                     player.sendMessage(new LiteralText("请使用 /idCard 命令,完成实名认证,本mod不会存储您的身份证信息,请放心输入." +
                             "源码已在GitHub上存储,若有怀疑请按照以下网址查看源码" +
-                            "网址: ").formatted(Formatting.BLUE), false);
+                            "网址: https://github.com/ChenMgP/AuthenticationMod").formatted(Formatting.BLUE), false);
                     is_tip = true;
                 }
             } else {
