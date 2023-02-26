@@ -63,7 +63,7 @@ public class Data {
                         date = newDate;
                     } else {
                         onlineTime++;
-                        if (onlineTime >= 20 * 30) {
+                        if (onlineTime >= 216000) {
                             ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity) player;
                             serverPlayerEntity.networkHandler.disconnect(new LiteralText("游玩时间已到"));
                         }
